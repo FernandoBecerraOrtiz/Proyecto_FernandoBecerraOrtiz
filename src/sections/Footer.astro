@@ -1,0 +1,21 @@
+---
+import Facordeon from "../components/Footer/Facordeon.astro";
+import Fcolumnas from "../components/Footer/Fcolumnas.astro";
+import Fcopyr from "../components/Footer/Fcopyr.astro";
+import Fenlaces from "../components/Footer/Fenlaces.astro";
+import Fredes from "../components/Footer/Fredes.astro";
+---
+
+<footer>
+    <div class="bg-black text-white">
+        <div class="relative pb-8 pl-2.5 xl:pl-20 pr-3 xl:pr-20 pt-8 max-w-7xl m-auto">
+            <div class="flex xl:justify-between items-center">
+                <Fredes />
+            </div>
+            <Facordeon />
+            <Fcolumnas />
+            <Fenlaces />
+            <Fcopyr />
+        </div>
+    </div>
+</footer>

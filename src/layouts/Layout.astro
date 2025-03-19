@@ -1,0 +1,39 @@
+---
+import "../styles/global.css";
+import Header from "../sections/Header.astro";
+import Footer from "../sections/Footer.astro";
+const title = "FooBar - Aprende Programación en Línea";
+---
+
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+		<meta name="description" content="En FooBar, ofrecemos cursos de programación en línea para todos los niveles. Aprende desde lo básico hasta temas avanzados con nuestros expertos."/>
+		<meta property="og:title" content="FooBar - Cursos de Programación en Línea" />
+		<meta property="og:description" content="Únete a FooBar y accede a cientos de cursos interactivos y recursos para aprender programación. Desde JavaScript hasta Python, tenemos lo que necesitas para avanzar en tu carrera tecnológica."/>
+		<meta property="og:image" content="/images/foobarcourses-hero.webp" />
+		<meta property="og:url" content="https://www.foobarcourses.com/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="FooBar - Aprende Programación" />
+		<meta name="twitter:card" content="photo" />
+		<meta name="twitter:title" content="FooBar - Cursos de Programación en Línea" />
+		<meta name="twitter:description" content="Únete a FooBar y accede a cientos de cursos interactivos y recursos para aprender programación. Desde JavaScript hasta Python, tenemos lo que necesitas para avanzar en tu carrera tecnológica."/>
+		<meta name="twitter:image" content="/images/foobarcourses-hero.webp" />
+		<meta name="twitter:url" content="https://www.foobarcourses.com/" />
+		<!-- <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" /> -->
+		<script src="../scripts/script.js"></script>
+		<title>{title}</title>
+	</head>
+	<body class="w-screen overflow-x-hidden">
+		<Header />
+
+		<slot />
+		
+		<Footer />
+
+		<!-- <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script> -->
+	</body>
+</html>

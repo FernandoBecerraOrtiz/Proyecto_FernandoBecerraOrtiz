@@ -1,0 +1,36 @@
+---
+import banner from "/public/images/opiniones/banner.png";
+import opinion1 from "/public/images/opiniones/nategentile.png";
+import opinion2 from "/public/images/opiniones/peladonerd.png";
+import opinion3 from "/public/images/opiniones/s4vitar.png";
+
+---
+
+<section class="max-w-7xl mx-auto my-15">
+    <div class="grid grid-cols-4 grid-rows-4 gap-4 rounded-2xl bg-green-500/50 p-4">
+        <div class="col-span-4">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h2>Adaptate al futuro con nuestro cantera de formación en tecnología e IT en constante crecimiento, ofreciendo cursos de vanguardia en temas como inteligencia artificial generativa, programación y ciberseguridad.</h2>
+                </div>
+                <img class="w-5xl object-cover overflow-hidden rounded-xl" src={banner.src} alt="Imanen banner opiniones">
+            </div>
+        </div>
+        <div class="row-span-2 row-start-2">
+            <img class="object-cover overflow-hidden rounded-xl" src={opinion1.src} alt="Imagen customer 1">
+        </div>
+        <div class="col-span-2 row-span-2 row-start-2 bg-white/90 rounded-sm">
+            Nate Gentile (Hardware, optimización y desarrollo)
+            "Si van a aprender desarrollo web, esta plataforma está bastante bien. Ahora, ojo con las tecnologías que enseñan. Si siguen enseñando jQuery en 2025... 🚩"
+            "Ojalá expliquen bien Git y no solo lo mencionen de pasada. No hay nada peor que un programador que no sabe usar control de versiones."
+        </div>
+        <div class="col-start-4 row-start-2 bg-white/90 rounded-sm">Bloque pequeño</div>
+        <div class="col-start-4 row-start-3 bg-white/90 rounded-sm">Bloque pequeño</div>
+        <div class="col-span-3 row-start-4 bg-white/90 rounded-sm">
+            S4vitar (Ciberseguridad y hacking ético)
+            "Antes de recomendar la web, lo primero que hago es mirar si tienen cursos de ciberseguridad. Si no te enseñan ni lo básico de seguridad web, cuidado con lo que aprendes."
+            "Ojo con los certificados que ofrecen. Si dicen que te conviertes en 'Full Stack Developer' en 2 meses, ya sabes que es humo."
+        </div>
+        <img class="row-start-4 object-cover overflow-hidden rounded-xl" src={opinion3.src} alt="Imagen customer 2">
+    </div>
+</section>

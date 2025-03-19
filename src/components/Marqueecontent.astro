@@ -1,0 +1,17 @@
+--- 
+export type Props = {
+  content: Array<string>
+}
+const { content } = Astro.props
+---
+
+<div class="overflow-hidden">
+  <div class="flex gap-x-4 py-2 animate-marquee">
+    {content.map((item, index) => (
+      <div class="flex-none uppercase text-[4vw] font-black leading-none">
+        {item}
+        {index !== content.length - 1 && <span> · </span>} {/* Separador entre los items */}
+      </div>
+    ))}
+  </div>
+</div>
