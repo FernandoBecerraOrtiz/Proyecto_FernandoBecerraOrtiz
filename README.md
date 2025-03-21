@@ -1,14 +1,14 @@
 # Paleta de colores
 
 ### Primarios
-- `#3498db` ![#3498db](https://via.placeholder.com/15/3498db/000000?text=+)
-- `#2ecc71` ![#2ecc71](https://via.placeholder.com/15/2ecc71/000000?text=+)
-- `#e74c3c` ![#e74c3c](https://via.placeholder.com/15/e74c3c/000000?text=+)
+- `#3498db` <span style="background-color: #3498db; color: white; padding: 5px 10px; border-radius: 5px;">&nbsp; Azul &nbsp;</span>
+- `#2ecc71` <span style="background-color: #2ecc71; color: white; padding: 5px 10px; border-radius: 5px;">&nbsp; Verde &nbsp;</span>
+- `#e74c3c` <span style="background-color: #e74c3c; color: white; padding: 5px 10px; border-radius: 5px;">&nbsp; Rojo &nbsp;</span>
 
 ### Secundarios
-- `#f1c40f` ![#f1c40f](https://via.placeholder.com/15/f1c40f/000000?text=+)
-- `#9b59b6` ![#9b59b6](https://via.placeholder.com/15/9b59b6/000000?text=+)
-- `#34495e` ![#34495e](https://via.placeholder.com/15/34495e/000000?text=+)
+- `#f1c40f` <span style="background-color: #f1c40f; color: black; padding: 5px 10px; border-radius: 5px;">&nbsp; Amarillo &nbsp;</span>
+- `#9b59b6` <span style="background-color: #9b59b6; color: white; padding: 5px 10px; border-radius: 5px;">&nbsp; Morado &nbsp;</span>
+- `#34495e` <span style="background-color: #34495e; color: white; padding: 5px 10px; border-radius: 5px;">&nbsp; Gris Oscuro &nbsp;</span>
 
 # Astro Starter Kit: Basics
 
