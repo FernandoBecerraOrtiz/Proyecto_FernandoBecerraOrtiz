@@ -98,12 +98,12 @@ Cada anexo debe estar numerado con números romanos (Anexo I, Anexo II, ...)
 
 # Anexo I: Paleta de colores
 
-<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <div class="container">
-        <h1>Primarios</h1>
-        
+<div style="width: 100px; height: 30px; background-color: #3498db; border-radius: 5px;"></div> Azul `#3498db`
+<div style="width: 100px; height: 30px; background-color: #2ecc71; border-radius: 5px;"></div> Verde `#2ecc71`
+<div style="width: 100px; height: 30px; background-color: #e74c3c; border-radius: 5px;"></div> Rojo `#e74c3c`
+
+
+### Primarios
 - `#d21f3c` <span style="background-color: #d21f3c; color: white; padding: 5px 10px; border-radius: 5px;">&nbsp;&nbsp;&nbsp;</span>
 
 - `#a5253e` <span style="background-color: #a5253e; color: white; padding: 5px 10px; border-radius: 5px;">&nbsp;&nbsp;&nbsp;</span>
@@ -126,12 +126,6 @@ Cada anexo debe estar numerado con números romanos (Anexo I, Anexo II, ...)
 - `#f16100` <span style="background-color: #f16100; color: white; padding: 5px 10px; border-radius: 5px;">&nbsp;&nbsp;&nbsp;</span>
 
 - `#797979` <span style="background-color: #797979; color: white; padding: 5px 10px; border-radius: 5px;">&nbsp;&nbsp;&nbsp;</span>
-      </div>
-    </div>
-  </foreignObject>
-</svg>
-
-
 
 # Astro Starter Kit: Basics
 
