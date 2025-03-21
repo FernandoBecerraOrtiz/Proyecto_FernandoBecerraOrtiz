@@ -1,5 +1,17 @@
 # Paleta de colores
 
+<style>
+r { color: Red }
+o { color: Orange }
+g { color: Green }
+</style>
+
+# TODOs:
+
+- <r>TODO:</r> Important thing to do
+- <o>TODO:</o> Less important thing to do
+- <g>DONE:</g> Breath deeply and improve karma
+
 ### Primarios
 - `#3498db` <span style="background-color: #3498db; color: white; padding: 5px 10px; border-radius: 5px;">&nbsp; Azul &nbsp;</span>
 - `#2ecc71` <span style="background-color: #2ecc71; color: white; padding: 5px 10px; border-radius: 5px;">&nbsp; Verde &nbsp;</span>
