@@ -1,16 +1,31 @@
 # Paleta de colores
 
+## Table Styling in Markdown
+
 <style>
-r { color: Red }
-o { color: Orange }
-g { color: Green }
+    .heatMap {
+        width: 70%;
+        text-align: center;
+    }
+    .heatMap th {
+        background: grey;
+        word-wrap: break-word;
+        text-align: center;
+    }
+    .heatMap tr:nth-child(1) { background: red; }
+    .heatMap tr:nth-child(2) { background: orange; }
+    .heatMap tr:nth-child(3) { background: green; }
 </style>
 
-# TODOs:
+<div class="heatMap">
 
-- <r>TODO:</r> Important thing to do
-- <o>TODO:</o> Less important thing to do
-- <g>DONE:</g> Breath deeply and improve karma
+| Everything | in this table | is Centered | and the table will only take up 70% of the screen width | 
+| -- | -- | -- | -- |
+| This | is | a | Red Row |
+| This | is | an | Orange Row |
+| This | is | a | Green Row |
+
+</div>
 
 ### Primarios
 - `#3498db` <span style="background-color: #3498db; color: white; padding: 5px 10px; border-radius: 5px;">&nbsp; Azul &nbsp;</span>
