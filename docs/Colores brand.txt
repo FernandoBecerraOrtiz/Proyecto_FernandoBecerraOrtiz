@@ -1,0 +1,20 @@
+Colores relacionados:
+
+https://encycolorpedia.es/d21f3c
+
+Paleta de colores brand:
+
+#d21f3c RESPBERRY
+#a5253e
+#772839
+#4b262f
+#1f1f1f LIGHT BLACK
+
+Paleta de colores auxiliares:
+
+#007cf1
+#77b5d0
+#00f1ae
+#00f134
+#f16100
+#797979
