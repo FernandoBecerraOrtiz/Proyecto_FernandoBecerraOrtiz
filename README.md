@@ -7,15 +7,13 @@
 - #### Título: FooBar.
 - #### Denominación del Ciclo Formativo: Desarrollo de Aplicaciones Web.
 - #### Centro educativo: I.E.S Suarez de Figueroa.
-
   <img width=50% src="./docs/iessuarezdefigueroa.png" alt="Logotipo del IES Suarez de Figueroa">
 
 - #### Autor: Fernando Becerra Ortiz.
 - #### Tutor: Pedro Santos Royano.
 - #### Fecha de presentación: Junio 2025.
-- #### Repositorio del proyecto: //TODO
+- #### Repositorio del proyecto: // TODO
 - #### Logotipo marca:
-
   <img width=30% src="./docs/logo.png" alt="Logotipo del IES Suarez de Figueroa">
 
 ### 2. Índice
@@ -49,20 +47,23 @@ Incluir este punto de aunque no hayáis utilizado ninguna utilidad, ni recurso.
 En este apartado se debe explicar las tecnologías utilizadas para su realización (REST, BD, Node, Bootstrap, ...).<br>
 Para cada una explicar de forma breve en qué consiste y los motivos de su uso frente a otras alternativas.
 
-
 ### 8. Diseño del proyecto
 En este punto se deben indicar todo lo relacionado al diseño del proyecto, tanto a nivel de Base de datos, como de la interfaz.
 
 - `Diseño de la base de datos`
-  - Diagrama E/R.
-  - Modelo Relacional
+  - Diagrama E/R:
+  
+    <img width=100% src="./docs/Diagrama Entidad Relacion.png" alt="Diagrama Entidad Relacion">
+  - Modelo Relacional:
+  
+    <img width=100% src="./docs/Modelo Relacional.png" alt="Modelo Relacional">
 - `Carga de datos inicial` (script con DML). *Incluir en los anexos y enlazar en este punto*
 - `Diseño de la interfaz de usuario` (menús desplegables, formularios, efectos CSS, ...).
   - *Si habéis utilizado alguna herramienta tipo Figma o parecida, indicar enlace al proyecto (si es posible, en el punto recursos).*
   - *Adjuntar las imágenes en este punto, o algún tipo de Demostración (gif) que la herramienta os permita realizar, o el prototipado que habéis utilizado.*
 
 - `Roles de la aplicación` y descripción de los mismos.
-  - *Indicar los tipos de usuario (Administrador, empleado, ...) que la aplicación utilize.
+  <img width=100% src="./docs/Diagrama de Casos De Uso.png" alt="Diagrama de Casos de Uso">
 - `Usuarios creados para pruebas` tanto para la parte Frontend como Backend.
 
 ### 9. Lógica/codificación del proyecto.
@@ -98,10 +99,7 @@ Cada anexo debe estar numerado con números romanos (Anexo I, Anexo II, ...)
 
 # Anexo I: Paleta de colores
 
-<div style="width: 100px; height: 30px; background-color: #3498db; border-radius: 5px;"></div> Azul `#3498db`
-<div style="width: 100px; height: 30px; background-color: #2ecc71; border-radius: 5px;"></div> Verde `#2ecc71`
-<div style="width: 100px; height: 30px; background-color: #e74c3c; border-radius: 5px;"></div> Rojo `#e74c3c`
-
+##### *No se visualizan en GitHub pero si en otros formatos*
 
 ### Primarios
 - `#d21f3c` <span style="background-color: #d21f3c; color: white; padding: 5px 10px; border-radius: 5px;">&nbsp;&nbsp;&nbsp;</span>
@@ -127,7 +125,7 @@ Cada anexo debe estar numerado con números romanos (Anexo I, Anexo II, ...)
 
 - `#797979` <span style="background-color: #797979; color: white; padding: 5px 10px; border-radius: 5px;">&nbsp;&nbsp;&nbsp;</span>
 
-# Astro Starter Kit: Basics
+<!-- # Astro Starter Kit: Basics
 
 ```sh
 npm create astro@latest -- --template basics
@@ -144,4 +142,4 @@ All commands are run from the root of the project, from a terminal:
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm run astro -- --help` | Get help using the Astro CLI                     | -->
