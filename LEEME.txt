@@ -1,0 +1,1 @@
+Este proyecto Astro es un mockup/wireframe del proyecto
