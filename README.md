@@ -1,4 +1,4 @@
-# Proyecto Fin de Ciclo Desarrollo de Apliciones Web | Fernando Becerra Ortiz
+# Proyecto Fin de Ciclo Desarrollo de Apliciones Web | Fernando Becerra Ortiz (Este repositorio se trata de un entorno de pruebas del repositorio real del proyecto, será modificado para el momento de la presentación)
 
 ## Puntos
 
